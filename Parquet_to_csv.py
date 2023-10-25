@@ -2,10 +2,10 @@ import pandas as pd
 import os
 
 # Directory where the Parquet files are stored
-parquet_directory = 'C:\\Users\\luish\\OneDrive\\Área de Trabalho\\ITAU QUANT\\Dados'
+parquet_directory = 'C:\\Users\\luish\\OneDrive\\Área de Trabalho\\ITAU QUANT'
 
 # Get a list of all Parquet files in the directory
-parquet_files = [f for f in os.listdir(parquet_directory) if f.endswith('.parquet')]
+parquet_files = [f for f in os.listdir(parquet_directory) if f.endswith('FILTRO.parquet')]
 
 # Loop through each Parquet file and save as CSV
 for parquet_file in parquet_files:

@@ -13,6 +13,6 @@ valid_tickers = ticker_groups[ticker_groups].index
 filtered_df = df[df['ticker'].isin(valid_tickers)]
 
 # Save the filtered DataFrame to a new CSV file
-filtered_df.to_csv('filtered_output.csv', index=False)
+filtered_df.to_csv('BASE_FINAL_COMPLETA.csv', index=False)
 
-print('Filtered CSV saved to filtered_output.csv')
+print('Filtered CSV saved to BASE_FINAL_COMPLETA.csv')
